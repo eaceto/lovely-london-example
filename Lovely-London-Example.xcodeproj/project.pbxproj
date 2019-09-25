@@ -1,0 +1,370 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F5EADDD233B0C2C0043CDF2 /* lovely-london in Frameworks */ = {isa = PBXBuildFile; productRef = 3F5EADDC233B0C2C0043CDF2 /* lovely-london */; };
+		3F97AC65233B0BC200592FB2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F97AC64233B0BC200592FB2 /* AppDelegate.swift */; };
+		3F97AC67233B0BC200592FB2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F97AC66233B0BC200592FB2 /* SceneDelegate.swift */; };
+		3F97AC69233B0BC200592FB2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F97AC68233B0BC200592FB2 /* ViewController.swift */; };
+		3F97AC6C233B0BC200592FB2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F97AC6A233B0BC200592FB2 /* Main.storyboard */; };
+		3F97AC6E233B0BC300592FB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F97AC6D233B0BC300592FB2 /* Assets.xcassets */; };
+		3F97AC71233B0BC300592FB2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F97AC6F233B0BC300592FB2 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3F97AC61233B0BC200592FB2 /* Lovely-London-Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lovely-London-Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F97AC64233B0BC200592FB2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3F97AC66233B0BC200592FB2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3F97AC68233B0BC200592FB2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3F97AC6B233B0BC200592FB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3F97AC6D233B0BC300592FB2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F97AC70233B0BC300592FB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3F97AC72233B0BC300592FB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F97AC5E233B0BC200592FB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F5EADDD233B0C2C0043CDF2 /* lovely-london in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F97AC58233B0BC200592FB2 = {
+			isa = PBXGroup;
+			children = (
+				3F97AC63233B0BC200592FB2 /* Lovely-London-Example */,
+				3F97AC62233B0BC200592FB2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F97AC62233B0BC200592FB2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F97AC61233B0BC200592FB2 /* Lovely-London-Example.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F97AC63233B0BC200592FB2 /* Lovely-London-Example */ = {
+			isa = PBXGroup;
+			children = (
+				3F97AC64233B0BC200592FB2 /* AppDelegate.swift */,
+				3F97AC66233B0BC200592FB2 /* SceneDelegate.swift */,
+				3F97AC68233B0BC200592FB2 /* ViewController.swift */,
+				3F97AC6A233B0BC200592FB2 /* Main.storyboard */,
+				3F97AC6D233B0BC300592FB2 /* Assets.xcassets */,
+				3F97AC6F233B0BC300592FB2 /* LaunchScreen.storyboard */,
+				3F97AC72233B0BC300592FB2 /* Info.plist */,
+			);
+			path = "Lovely-London-Example";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F97AC60233B0BC200592FB2 /* Lovely-London-Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F97AC75233B0BC300592FB2 /* Build configuration list for PBXNativeTarget "Lovely-London-Example" */;
+			buildPhases = (
+				3F97AC5D233B0BC200592FB2 /* Sources */,
+				3F97AC5E233B0BC200592FB2 /* Frameworks */,
+				3F97AC5F233B0BC200592FB2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lovely-London-Example";
+			packageProductDependencies = (
+				3F5EADDC233B0C2C0043CDF2 /* lovely-london */,
+			);
+			productName = "Lovely-London-Example";
+			productReference = 3F97AC61233B0BC200592FB2 /* Lovely-London-Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F97AC59233B0BC200592FB2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = Auth0;
+				TargetAttributes = {
+					3F97AC60233B0BC200592FB2 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+				};
+			};
+			buildConfigurationList = 3F97AC5C233B0BC200592FB2 /* Build configuration list for PBXProject "Lovely-London-Example" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F97AC58233B0BC200592FB2;
+			packageReferences = (
+				3F5EADDB233B0C2C0043CDF2 /* XCRemoteSwiftPackageReference "lovely-london" */,
+			);
+			productRefGroup = 3F97AC62233B0BC200592FB2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F97AC60233B0BC200592FB2 /* Lovely-London-Example */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F97AC5F233B0BC200592FB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F97AC71233B0BC300592FB2 /* LaunchScreen.storyboard in Resources */,
+				3F97AC6E233B0BC300592FB2 /* Assets.xcassets in Resources */,
+				3F97AC6C233B0BC200592FB2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F97AC5D233B0BC200592FB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F97AC69233B0BC200592FB2 /* ViewController.swift in Sources */,
+				3F97AC65233B0BC200592FB2 /* AppDelegate.swift in Sources */,
+				3F97AC67233B0BC200592FB2 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3F97AC6A233B0BC200592FB2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F97AC6B233B0BC200592FB2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3F97AC6F233B0BC300592FB2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F97AC70233B0BC300592FB2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F97AC73233B0BC300592FB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3F97AC74233B0BC300592FB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F97AC76233B0BC300592FB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2U378HJ7FG;
+				INFOPLIST_FILE = "Lovely-London-Example/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.auth0.example.Lovely-London-Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3F97AC77233B0BC300592FB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2U378HJ7FG;
+				INFOPLIST_FILE = "Lovely-London-Example/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.auth0.example.Lovely-London-Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F97AC5C233B0BC200592FB2 /* Build configuration list for PBXProject "Lovely-London-Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F97AC73233B0BC300592FB2 /* Debug */,
+				3F97AC74233B0BC300592FB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F97AC75233B0BC300592FB2 /* Build configuration list for PBXNativeTarget "Lovely-London-Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F97AC76233B0BC300592FB2 /* Debug */,
+				3F97AC77233B0BC300592FB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		3F5EADDB233B0C2C0043CDF2 /* XCRemoteSwiftPackageReference "lovely-london" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/eaceto/lovely-london";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		3F5EADDC233B0C2C0043CDF2 /* lovely-london */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 3F5EADDB233B0C2C0043CDF2 /* XCRemoteSwiftPackageReference "lovely-london" */;
+			productName = "lovely-london";
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 3F97AC59233B0BC200592FB2 /* Project object */;
+}
