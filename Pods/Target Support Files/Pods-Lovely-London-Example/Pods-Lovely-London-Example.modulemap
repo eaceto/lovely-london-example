@@ -1,0 +1,6 @@
+framework module Pods_Lovely_London_Example {
+  umbrella header "Pods-Lovely-London-Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

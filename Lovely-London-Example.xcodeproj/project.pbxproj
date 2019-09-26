@@ -7,24 +7,34 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F37D0FD233CC79C008A6484 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F37D0FC233CC79C008A6484 /* ViewController.xib */; };
+		3F37D100233CC89E008A6484 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F37D0FE233CC89D008A6484 /* HomeViewController.swift */; };
+		3F37D101233CC89E008A6484 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F37D0FF233CC89E008A6484 /* HomeViewController.xib */; };
+		3F57B509233CC25F007643EB /* Auth0.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3F57B508233CC25F007643EB /* Auth0.plist */; };
 		3F5EADDD233B0C2C0043CDF2 /* lovely-london in Frameworks */ = {isa = PBXBuildFile; productRef = 3F5EADDC233B0C2C0043CDF2 /* lovely-london */; };
 		3F97AC65233B0BC200592FB2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F97AC64233B0BC200592FB2 /* AppDelegate.swift */; };
-		3F97AC67233B0BC200592FB2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F97AC66233B0BC200592FB2 /* SceneDelegate.swift */; };
-		3F97AC69233B0BC200592FB2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F97AC68233B0BC200592FB2 /* ViewController.swift */; };
-		3F97AC6C233B0BC200592FB2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F97AC6A233B0BC200592FB2 /* Main.storyboard */; };
 		3F97AC6E233B0BC300592FB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F97AC6D233B0BC300592FB2 /* Assets.xcassets */; };
 		3F97AC71233B0BC300592FB2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F97AC6F233B0BC300592FB2 /* LaunchScreen.storyboard */; };
+		3FAE618B233CE2A400074EB3 /* Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FAE618A233CE2A400074EB3 /* Helper.m */; };
+		45102C10533AA9DDC78039F4 /* Pods_Lovely_London_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B4EA2C3747744895694BAD6 /* Pods_Lovely_London_Example.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1A37BCDEED86A708BB2612EB /* Pods-Lovely-London-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lovely-London-Example.release.xcconfig"; path = "Target Support Files/Pods-Lovely-London-Example/Pods-Lovely-London-Example.release.xcconfig"; sourceTree = "<group>"; };
+		3B4EA2C3747744895694BAD6 /* Pods_Lovely_London_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Lovely_London_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F37D0FC233CC79C008A6484 /* ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		3F37D0FE233CC89D008A6484 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		3F37D0FF233CC89E008A6484 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		3F57B508233CC25F007643EB /* Auth0.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Auth0.plist; sourceTree = "<group>"; };
 		3F97AC61233B0BC200592FB2 /* Lovely-London-Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lovely-London-Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F97AC64233B0BC200592FB2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3F97AC66233B0BC200592FB2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3F97AC68233B0BC200592FB2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		3F97AC6B233B0BC200592FB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3F97AC6D233B0BC300592FB2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F97AC70233B0BC300592FB2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3F97AC72233B0BC300592FB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FAE6187233CE28900074EB3 /* Lovely-London-Example-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Lovely-London-Example-Bridging-Header.h"; sourceTree = "<group>"; };
+		3FAE6189233CE2A400074EB3 /* Helper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Helper.h; sourceTree = "<group>"; };
+		3FAE618A233CE2A400074EB3 /* Helper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Helper.m; sourceTree = "<group>"; };
+		C256A4E4484065494E389031 /* Pods-Lovely-London-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Lovely-London-Example.debug.xcconfig"; path = "Target Support Files/Pods-Lovely-London-Example/Pods-Lovely-London-Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +43,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F5EADDD233B0C2C0043CDF2 /* lovely-london in Frameworks */,
+				45102C10533AA9DDC78039F4 /* Pods_Lovely_London_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +55,8 @@
 			children = (
 				3F97AC63233B0BC200592FB2 /* Lovely-London-Example */,
 				3F97AC62233B0BC200592FB2 /* Products */,
+				7CDFEDC5A51717AFC22B4A2A /* Pods */,
+				E9F8C4566C746671A0F40EE5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,15 +71,36 @@
 		3F97AC63233B0BC200592FB2 /* Lovely-London-Example */ = {
 			isa = PBXGroup;
 			children = (
+				3F37D0FE233CC89D008A6484 /* HomeViewController.swift */,
+				3F37D0FF233CC89E008A6484 /* HomeViewController.xib */,
 				3F97AC64233B0BC200592FB2 /* AppDelegate.swift */,
-				3F97AC66233B0BC200592FB2 /* SceneDelegate.swift */,
-				3F97AC68233B0BC200592FB2 /* ViewController.swift */,
-				3F97AC6A233B0BC200592FB2 /* Main.storyboard */,
+				3F37D0FC233CC79C008A6484 /* ViewController.xib */,
 				3F97AC6D233B0BC300592FB2 /* Assets.xcassets */,
 				3F97AC6F233B0BC300592FB2 /* LaunchScreen.storyboard */,
 				3F97AC72233B0BC300592FB2 /* Info.plist */,
+				3F57B508233CC25F007643EB /* Auth0.plist */,
+				3FAE6187233CE28900074EB3 /* Lovely-London-Example-Bridging-Header.h */,
+				3FAE6189233CE2A400074EB3 /* Helper.h */,
+				3FAE618A233CE2A400074EB3 /* Helper.m */,
 			);
 			path = "Lovely-London-Example";
+			sourceTree = "<group>";
+		};
+		7CDFEDC5A51717AFC22B4A2A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C256A4E4484065494E389031 /* Pods-Lovely-London-Example.debug.xcconfig */,
+				1A37BCDEED86A708BB2612EB /* Pods-Lovely-London-Example.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E9F8C4566C746671A0F40EE5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3B4EA2C3747744895694BAD6 /* Pods_Lovely_London_Example.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -76,9 +110,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3F97AC75233B0BC300592FB2 /* Build configuration list for PBXNativeTarget "Lovely-London-Example" */;
 			buildPhases = (
+				B9BAB0730C7C128C62992EF6 /* [CP] Check Pods Manifest.lock */,
 				3F97AC5D233B0BC200592FB2 /* Sources */,
 				3F97AC5E233B0BC200592FB2 /* Frameworks */,
 				3F97AC5F233B0BC200592FB2 /* Resources */,
+				FE5796ABB9BEF7EA8E64B3E6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -104,6 +140,7 @@
 				TargetAttributes = {
 					3F97AC60233B0BC200592FB2 = {
 						CreatedOnToolsVersion = 11.0;
+						LastSwiftMigration = 1100;
 					};
 				};
 			};
@@ -133,36 +170,72 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3F37D0FD233CC79C008A6484 /* ViewController.xib in Resources */,
 				3F97AC71233B0BC300592FB2 /* LaunchScreen.storyboard in Resources */,
+				3F37D101233CC89E008A6484 /* HomeViewController.xib in Resources */,
 				3F97AC6E233B0BC300592FB2 /* Assets.xcassets in Resources */,
-				3F97AC6C233B0BC200592FB2 /* Main.storyboard in Resources */,
+				3F57B509233CC25F007643EB /* Auth0.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B9BAB0730C7C128C62992EF6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Lovely-London-Example-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE5796ABB9BEF7EA8E64B3E6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Lovely-London-Example/Pods-Lovely-London-Example-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Lovely-London-Example/Pods-Lovely-London-Example-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Lovely-London-Example/Pods-Lovely-London-Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		3F97AC5D233B0BC200592FB2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F97AC69233B0BC200592FB2 /* ViewController.swift in Sources */,
 				3F97AC65233B0BC200592FB2 /* AppDelegate.swift in Sources */,
-				3F97AC67233B0BC200592FB2 /* SceneDelegate.swift in Sources */,
+				3FAE618B233CE2A400074EB3 /* Helper.m in Sources */,
+				3F37D100233CC89E008A6484 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		3F97AC6A233B0BC200592FB2 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3F97AC6B233B0BC200592FB2 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		3F97AC6F233B0BC300592FB2 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -224,7 +297,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -278,7 +351,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -290,8 +363,10 @@
 		};
 		3F97AC76233B0BC300592FB2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C256A4E4484065494E389031 /* Pods-Lovely-London-Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2U378HJ7FG;
 				INFOPLIST_FILE = "Lovely-London-Example/Info.plist";
@@ -301,6 +376,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.auth0.example.Lovely-London-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Lovely-London-Example/Lovely-London-Example-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -308,8 +385,10 @@
 		};
 		3F97AC77233B0BC300592FB2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A37BCDEED86A708BB2612EB /* Pods-Lovely-London-Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2U378HJ7FG;
 				INFOPLIST_FILE = "Lovely-London-Example/Info.plist";
@@ -319,6 +398,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.auth0.example.Lovely-London-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Lovely-London-Example/Lovely-London-Example-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

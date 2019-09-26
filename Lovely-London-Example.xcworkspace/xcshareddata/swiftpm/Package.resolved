@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "lovely-london",
+        "repositoryURL": "https://github.com/eaceto/lovely-london",
+        "state": {
+          "branch": "master",
+          "revision": "338a775418f246630ca9df34c54aeec497fac486",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}
